@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+	<head>
+		<title>
+			Calculator Demo
+		</title>
+		<link rel="stylesheet" href="calculator.css" type="text/css">
+	</head>
+	<body>
+		<div id="calculator">
+			<h1>calc U l8r</h1>
+			<div class="calculator_row">
+				<input id="number_input">
+			</div>
+			<div class="calculator_row">
+				<button id="button7" class="calcButton row1 col1">7</button>
+				<button id="button8" class="calcButton row1 col2">8</button>
+				<button id="button9" class="calcButton row1 col3">9</button>
+				<button id="buttonDivide" class="calcButton row1 col4 function">/</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button4" class="calcButton row2 col1">4</button>
+				<button id="button5" class="calcButton row2 col2">5</button>
+				<button id="button6" class="calcButton row2 col3">6</button>
+				<button id="buttonMultiply" class="calcButton row2 col4 function">*</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button1" class="calcButton row3 col1">1</button>
+				<button id="button2" class="calcButton row3 col2">2</button>
+				<button id="button3" class="calcButton row3 col3">3</button>
+				<button id="buttonAdd" class="calcButton row3 col4 function">+</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button0" class="calcButton row4 col1">0</button>
+				<button id="buttonClear" class="calcButton row4 col2 meta">C</button>
+				<button id="buttonEquals" class="calcButton row4 col3 meta">=</button>
+				<button id="buttonSubtract" class="calcButton row4 col4 function">-</button>
+			</div>
+		</div>
+		<div id="comments">
+			<h2>About this app</h2>
+				<h3>Switch Instruction</h3>
+					<p>To move to the next item press the 'K' key</p>
+					<p>To select the highlighted item, press the 'L' key</p>
+				<h3>Test results</h3>
+					<table>
+						<caption> Using Knuckle </caption>
+						<tr>
+							<td scope="col"> Equations </td>
+							<td scope="col"> Avg Completion Time </td>
+							<td scope="col"> Avg # of Errors </td>
+					 	</tr>
+						<tr>
+							<td scope="row"> ((3+7)*8)/10 = 8 </td>
+							<td> 32s </td>
+							<td>  2.67  </td>
+						</tr>
+						<tr>
+							<td scope="row"> (7*9)-25 = 38 </td>
+							<td> 23.67s </td>
+							<td>  1.33  </td>
+						</tr>
+						<tr>
+							<td scope="row"> ((14/2)+7)*15 = 210 </td>
+							<td> 28.67s </td>
+							<td>  0.33  </td>
+						</tr>
+						<tr>
+							<td scope="row"> ((15/3)*4)-15 = 5 </td>
+							<td> 31.67s </td>
+							<td>  1.33  </td>
+						</tr>
+						<tr>
+							<td scope="row"> (410-593+231)/5 = 20.4 </td>
+							<td> 28s </td>
+							<td>  1.33  </td>
+						</tr>
+					</table>
+					<table>
+						<caption> Using Toe </caption>
+						<tr>
+							<td scope="col"> Equations </td>
+							<td scope="col"> Avg Completion Time </td>
+							<td scope="col"> # of Errors </td>
+					 	</tr>
+						<tr>
+							<td scope="row"> ((3+7)*8)/10 = 8 </td>
+							<td> 51.67s </td>
+							<td>  5  </td>
+						</tr>
+						<tr>
+							<td scope="row"> (7*9)-25 = 38 </td>
+							<td> 44.33s </td>
+							<td>  1.33  </td>
+						</tr>
+						<tr>
+							<td scope="row"> ((14/2)+7)*15 = 210 </td>
+							<td>  66.33s </td>
+							<td> 2.33 </td>
+						</tr>
+						<tr>
+							<td scope="row"> ((15/3)*4)-15 = 5 </td>
+							<td> 55.33s </td>
+							<td>  1.67  </td>
+						</tr>
+						<tr>
+							<td scope="row"> (410-593+231)/5 = 20.4 </td>
+							<td> 72.33s </td>
+							<td> 4.33 </td>
+						</tr>
+					</table>
+			<h3>Anything else you have tried out</h3>
+				<p> I tried using my nose when first considering what to test. It did not go well at all. Using my nose was both difficult to see which button </br>
+					was highlighted and to click the correct button on the keyboard. Because of this, speed of entry suffered immensely. </p>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+		<script src="calculator.js" type="text/javascript"></script>
+	</body>
+</html>
